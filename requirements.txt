@@ -3,6 +3,7 @@ gunicorn
 whitenoise
 pillow
 django-crispy-forms
+crispy-bootstrap5
 django-allauth
 cloudinary
 django-cloudinary-storage
