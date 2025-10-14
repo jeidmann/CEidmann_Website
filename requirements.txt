@@ -6,3 +6,11 @@ django-crispy-forms
 django-allauth
 cloudinary
 django-cloudinary-storage
+dj-database-url
+django-environ
+django-storages
+djangorestframework
+djangorestframework-simplejwt
+django-summernote
+django-autoslug
+django-cors-headers
