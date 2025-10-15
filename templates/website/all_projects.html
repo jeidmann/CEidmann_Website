@@ -6,7 +6,7 @@
                 {% if project.image %}
                     <img class="card-img-top" src="{{ project.image.url }}" alt="{{ project.title }}">
                 {% else %}
-                    <img class="card-img-top" src="{% static 'website/img/under_construction.jpg' %}" alt={{ project.title }}>
+                    <img class="card-img-top" src="{% static 'img/under_construction.jpg' %}" alt={{ project.title }}>
                 {% endif %}
                 <div class="card-body">
                     {% if project.title %}
