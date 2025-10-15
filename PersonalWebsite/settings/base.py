@@ -171,9 +171,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+# URL for static files
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'  # collectstatic gathers all static files here
 
+# Where Django will collect all static files for production
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# Additional directories for collectstatic
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',  # points to CEidmann_Website/static
+]
 # Media (optional if you have uploads)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
